@@ -12,12 +12,13 @@
   clear:both;
 }
 /* /proprietá clearfix */
-/* ridimensionamento pagina completa */
+/* pagina completa */
 .home_page{
   width:80%;
   margin: auto;
+  font-family: 'Montserrat', sans-serif;
 }
-/* /ridimensionamento pagina completa */
+/* /pagina completa */
 
 header{
   height: 100px;
