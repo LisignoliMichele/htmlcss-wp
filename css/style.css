@@ -120,6 +120,16 @@ header img{
   position: relative;
   height:200px;
 }
+.col h4{
+  margin: 15px 0;
+}
+.col h4, .col p{
+  color:  #929292;
+  font-size: 15px
+}
+.col p{
+  font-weight: 200;
+}
 /* LEADERSHIP */
 footer{
   height: 50px;
