@@ -45,7 +45,7 @@ header img{
 .top_nav li{
   list-style: none;
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .top_nav li a{
   color: #858585;
@@ -102,7 +102,8 @@ header img{
   float: left;
   margin-bottom: 2%;
 }
-.col_1, .col_3{
+.col_1,
+.col_3{
   width: 20%;
 }
 .col_2{
@@ -123,7 +124,8 @@ header img{
 .col h4{
   margin: 15px 0;
 }
-.col h4, .col p{
+.col h4,
+.col p{
   color:  #929292;
   font-size: 15px
 }
@@ -131,8 +133,20 @@ header img{
   font-weight: 200;
 }
 /* LEADERSHIP */
+
+/* FOOTER */
 footer{
-  height: 50px;
-  background-color: #8801fe;
-  margin-top: 15px;
+  margin: 15px 0;
 }
+footer h6{
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+}
+footer h6:after {
+    content: "\2661";
+    margin-left: 6px;
+    color: red;
+    font-size: 20px;
+}
+/* /FOOTER */
