@@ -5,13 +5,24 @@
   padding: 0;
 }
 /* /reset */
-/* proprietá clearfix */
+/* proprietá speciali */
 .clearfix::after{
   content:"";
   display: block;
   clear:both;
 }
-/* /proprietá clearfix */
+
+.overlay::after{
+  content:"";
+  position: absolute;
+  background-color: rgba(0,0,0,0.2);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 15px;
+}
+/* /proprietá speciali */
 /* pagina completa */
 .home_page{
   width:80%;
@@ -20,14 +31,14 @@
 }
 /* /pagina completa */
 /* HEADER */
-            /* logo */
+    /* logo */
 header img{
   width: 15%;
 }
-          /* /logo */
-          /* barra navigazione */
+    /* /logo */
+    /* barra navigazione */
 .top_nav{
-  margin: 30px 0;
+  margin-top: 30px;
 }
 .top_nav li{
   list-style: none;
@@ -39,19 +50,19 @@ header img{
   text-decoration: none;
   font-size: 15px;
 }
-          /* /barra navigazione */
+    /* /barra navigazione */
 /* /HEADER */
 /* BANNER SECTION */
 .banner{
-  height: 450px;
-  width: 100%;
   position: relative;
+  margin: 30px 0;
+  height: 450px;
 }
 .banner img{
   width: 100%;
   height: 450px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .banner_lyric{
   width: 50%;
@@ -59,6 +70,7 @@ header img{
   position: absolute;
   bottom: 10%;
   left: 5%;
+  z-index: 2;
 }
 .banner_lyric h5{
   font-size: 27px;
@@ -67,9 +79,6 @@ header img{
 .banner_lyric p{
   font-size: 15px;
   font-weight: 300;
-}
-
-
 }
 /* /BANNER SECTION */
 .leadership_container{
