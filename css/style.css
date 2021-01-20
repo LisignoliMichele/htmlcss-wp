@@ -27,7 +27,7 @@ header img{
           /* /logo */
           /* barra navigazione */
 .top_nav{
-  margin-top: 20px;
+  margin: 30px 0;
 }
 .top_nav li{
   list-style: none;
@@ -37,18 +37,41 @@ header img{
 .top_nav li a{
   color: #858585;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
 }
           /* /barra navigazione */
 /* /HEADER */
-header{
-  background-color: #e579e6;
-}
+/* BANNER SECTION */
 .banner{
-  height: 400px;
-  background-color: #e3d67a;
-  margin:20px 0;
+  height: 450px;
+  width: 100%;
+  position: relative;
 }
+.banner img{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.banner_lyric{
+  width: 50%;
+  color: #ffffff;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+.banner_lyric h5{
+  font-size: 27px;
+  font-weight: 400;
+}
+.banner_lyric p{
+  font-size: 15px;
+  font-weight: 300;
+}
+
+
+}
+/* /BANNER SECTION */
 .leadership_container{
   background-color: #0286fc;
 }
