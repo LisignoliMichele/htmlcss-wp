@@ -1,0 +1,57 @@
+/* reset */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* /reset */
+/* proprietá clearfix */
+.clearfix::after{
+  content:"";
+  display: block;
+  clear:both;
+}
+/* /proprietá clearfix */
+/* ridimensionamento pagina completa */
+.home_page{
+  width:80%;
+  margin: auto;
+}
+/* /ridimensionamento pagina completa */
+
+header{
+  height: 100px;
+  background-color: #e579e6;
+}
+.banner{
+  height: 400px;
+  background-color: #e3d67a;
+  margin:20px 0;
+}
+.leadership_container{
+  background-color: #0286fc;
+}
+.leadership_title{
+  height: 70px;
+  background-color: #abcfe7;
+  margin-bottom: 20px;
+}
+.col{
+  height: 500px;
+  background-color: #abcfe7;
+  float: left;
+  margin-bottom: 2%;
+}
+.col_1, .col_3{
+  width: 20%;
+}
+.col_2{
+  width:56%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+footer{
+  height: 50px;
+  background-color: #8801fe;
+  margin-top: 15px;
+}
