@@ -150,9 +150,12 @@ footer h6:after {
     font-size: 20px;
 }
 /* /FOOTER */
+
+/* HOVER EFFECT */
 .banner:hover .banner_lyric{
   text-shadow: 2px 2px 4px #000000;
 }
 .overlay:hover::after{
   background-color: rgba(0, 0, 0, 0.1);
 }
+/* /HOVER EFFECT */
