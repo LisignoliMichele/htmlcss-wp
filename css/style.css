@@ -19,9 +19,29 @@
   font-family: 'Montserrat', sans-serif;
 }
 /* /pagina completa */
-
+/* HEADER */
+            /* logo */
+header img{
+  width: 15%;
+}
+          /* /logo */
+          /* barra navigazione */
+.top_nav{
+  margin-top: 20px;
+}
+.top_nav li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+.top_nav li a{
+  color: #858585;
+  text-decoration: none;
+  font-size: 13px;
+}
+          /* /barra navigazione */
+/* /HEADER */
 header{
-  height: 100px;
   background-color: #e579e6;
 }
 .banner{
