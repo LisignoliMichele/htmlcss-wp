@@ -5,13 +5,13 @@
   padding: 0;
 }
 /* /reset */
+
 /* proprietá speciali */
 .clearfix::after{
   content:"";
   display: block;
   clear:both;
 }
-
 .overlay::after{
   content:"";
   position: absolute;
@@ -23,6 +23,7 @@
   border-radius: 15px;
 }
 /* /proprietá speciali */
+
 /* pagina completa */
 .home_page{
   width:80%;
@@ -30,6 +31,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 /* /pagina completa */
+
 /* HEADER */
     /* logo */
 header img{
@@ -52,6 +54,7 @@ header img{
 }
     /* /barra navigazione */
 /* /HEADER */
+
 /* BANNER SECTION */
 .banner{
   position: relative;
@@ -72,7 +75,7 @@ header img{
   left: 5%;
   z-index: 2;
 }
-.banner_lyric h5{
+.banner_lyric h3{
   font-size: 27px;
   font-weight: 400;
 }
@@ -81,17 +84,21 @@ header img{
   font-weight: 300;
 }
 /* /BANNER SECTION */
-.leadership_container{
-  background-color: #0286fc;
-}
+
+/* LEADERSHIP */
 .leadership_title{
-  height: 70px;
-  background-color: #abcfe7;
-  margin-bottom: 20px;
+  margin-bottom: 30px
+}
+.leadership_title h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+.leadership_title p{
+  color:  #929292;
+  font-size: 15px;
+  font-weight: 300;
 }
 .col{
-  height: 500px;
-  background-color: #abcfe7;
   float: left;
   margin-bottom: 2%;
 }
@@ -103,6 +110,17 @@ header img{
   margin-right: 2%;
   margin-left: 2%;
 }
+.col img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.photo{
+  position: relative;
+  height:200px;
+}
+/* LEADERSHIP */
 footer{
   height: 50px;
   background-color: #8801fe;
